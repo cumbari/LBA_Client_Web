@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html manifest="cumbari.manifest">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Cumbari</title>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+        <!--<meta name="viewport" content="user-scalable=no,width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />-->
+        <meta content="yes" name="apple-mobile-web-app-capable" />
+
+        <link rel="apple-touch-icon" href="/webclient/icon@2x.png"/>
+        <link rel="icon" type="image/png" href="/webclient/icon@2x.png" />
+
+        <!--        <link href="sencha/resources/css/sencha-touch.css" rel="stylesheet" type="text/css" />-->
+        <link href="sencha/resources/css/application.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script type="text/javascript" src="http://code.google.com/apis/gears/gears_init.js"></script>
+        <script src="sencha/sencha-touch-debug.js" type="text/javascript"></script>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+        <link href="link.css" rel="stylesheet" type="text/css" />
+        <script src='http://src.sencha.io/screen.js' type="text/javascript"></script>
+        <style>
+            .but img{ border:0px; margin-right:10px }
+            .detail img{width:300px; height:130px; border:0px; margin-right:10px;border-radius:15px; moz-border-radius:15px; margin:10px 0 0 10px; }
+            .myForm-loding { position: absolute; width:315px; margin-top :.7em; height:100px; padding-left: 12px; padding-right: 5px; -webkit-border-radius: .10em; }
+            .myButton-loding {position: absolute;
+                              margin-bottom :18px;
+                              height:40px;
+                              margin-left: 10px;
+                              bottom: -10px;
+                              text-align:center;
+                              width: 300px;}
+            .barcode-field {position: relative;
+                            margin-bottom :10px;
+                            height:40px;
+                            margin-left: 2px;
+                            text-align:center;
+                            width: 258px;}
+            .submitButton { position: absolute;
+                            height:40px;
+                            margin-left: 17px;
+                            bottom: -60px;
+                            text-align:center;
+                            width: 270px;  }
+            .logo img{width:90px; height:41px;}
+        </style>
+        <style>
+            #loading-mask {
+                position: absolute;
+                z-index: 10000;
+                width:100%;
+                height:100%;
+                background-repeat: no-repeat;
+                background-position: 0 0;
+                background-size: 100% auto;
+                background-image:url(http://src.sencha.io/https://cumbari.com/webclient/main_splesh.png);
+                text-align: center;
+            }
+        </style>
+        <!--Home-->
+        <script src="cumbari.js" type="text/javascript"></script>
+
+        <!--map -->
+        <!--detail -->
+        <!--brand -->
+        <!--settings -->
+
+
+
+        <script src="detailMap.js" type="text/javascript"></script>
+        <script src="timer.js" type="text/javascript"></script>
+        <script src="list.js" type="text/javascript"></script>
+        <script src="brandsList.js" type="text/javascript"></script>
+
+        <script src="more/categorieStore.js" type="text/javascript"></script>
+        <script src="more/categoriesCoupon_store.js" type="text/javascript"></script>
+        <script src="more/brandStore.js" type="text/javascript"></script>
+        <script src="more/brandCouponStore.js" type="text/javascript"></script>
+        <script src="more/favoriteStore.js" type="text/javascript"></script>
+        <script src="more/moreDealStore.js" type="text/javascript"></script>
+        <script src="searchMap.js" type="text/javascript"></script>
+        <script src="more/hotDealStore.js" type="text/javascript"></script>
+        <script src="db.js" type="text/javascript"></script>
+        <script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+        <script type="text/javascript" src="jquery-barcode-2.0.2.min.js"></script>
+        <script src="barCode_gen.js" type="text/javascript"></script>
+        <script src="barcode_timer.js" type="text/javascript"></script>
+        <script src="pincode_timer.js" type="text/javascript"></script>
+        <script src="language-support.js" type="text/javascript"></script>
+        <script>
+            online = window.navigator.onLine;
+            var connection;
+           
+           if (navigator.onLine) {
+                connection="online";
+
+            } else {
+                connection="offline";
+
+            }
+            /*$(document).ready(function () {
+                function reorient(e) {
+                    var portrait = (window.orientation % 180 == 0);
+                    $("body > div").css("-webkit-transform", !portrait ? "rotate(-90deg)" : "");
+                }
+                window.onorientationchange = reorient;
+                window.setTimeout(reorient, 0);
+            });*/
+             
+        </script>
+
+
+
+    </head>
+    <body>
+        <div>
+            <div id="loading-mask"></div>
+            <input type="hidden" id="hidCurrentLatitude" value=""/>
+            <input type="hidden" id="hidCurrentLongitude" value=""/>
+        </div>
+    </body>
+
+
+</html>

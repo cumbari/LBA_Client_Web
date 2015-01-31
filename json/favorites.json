@@ -1,0 +1,25 @@
+{
+    "ListOfCoupons": [
+        {
+            "brandIcon": "",
+            "brandName": "",
+            "categoryId": "1198087b-f5b1-4cda-8704-9f81de75b85b",
+            "couponDeliveryType": "AUTO",
+            "couponId": "f18de715-d5b6-4bb1-a0ee-435c6a0dfde4",
+            "distanceToStore": 564,
+            "endOfPublishing": "2011-10-06 10:32",
+            "isSponsored": false,
+            "largeImage": "http://www.cumbari.com/images/category/GoogleLarge.png",
+            "limitPeriodList": [
+
+            ],
+            "offerSlogan": "",
+            "offerTitle": "Buddy's Broaster",
+            "offerType": "ADVERTISE",
+            "productInfoLink": "",
+            "smallImage": "http://www.cumbari.com/images/category/Google.png",
+            "storeId": "3093a92f-db84-4ba7-9336-c059e1abddad",
+            "validFrom": "2011-09-16 10:32"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+@include pictos-iconmask('search');
+@include pictos-iconmask('bookmarks');
+@include pictos-iconmask('time');
+@include pictos-iconmask('favorites');
+@include pictos-iconmask('settings');
+@include pictos-iconmask('heart');
+@include pictos-iconmask('more');
+@include pictos-iconmask('doc_list');
+@include pictos-iconmask('mail3');
+@include pictos-iconmask('black_hot');
+@include pictos-iconmask('hot12');
+@include pictos-iconmask('category');
+@include pictos-iconmask('brand');
+@include pictos-iconmask('hotDeal');

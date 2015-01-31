@@ -1,0 +1,124 @@
+Ext.setup({
+    icon: 'icon.png',
+    tabletStartupScreen: 'tablet_startup.png',
+    phoneStartupScreen: 'phone_startup.png',
+    glossOnIcon: false,
+    onReady: function() {
+        Ext.regModel('Cumbari', {
+            fields: [
+                {name: 'offerTitle', type: 'string'},
+                {name: 'smallImage', type: 'string'},
+                {name: 'distanceToStore', type: 'string'},
+                {name: 'isSponsored', type: 'boolean'},
+            	{name: 'storeId', type: 'string'}
+            ]
+        });
+
+
+        Ext.regModel('Stores', {
+            fields: [
+            	{name: 'city', type: 'string'},
+            	{name: 'country', type: 'string'},
+            	{name: 'email', type: 'string'},
+            	{name: 'homePage', type: 'string'},
+            	{name: 'latitude', type: 'string'},
+                {name: 'longitude', type: 'string'},
+            	{name: 'phone', type: 'string'},
+            	{name: 'storeId', type: 'string'},
+                {name: 'storeName', type: 'string'},
+                {name: 'street', type: 'string'}
+
+            ]
+        });
+
+        Ext.regModel('CustomCumbari', {
+            fields: [
+            	{name: 'offerTitle', type: 'string'},
+                {name: 'smallImage', type: 'string'},
+                {name: 'distanceToStore', type: 'string'},
+                {name: 'isSponsored', type: 'boolean'},
+                {name: 'storeId', type: 'string'},
+                {name: 'storeName', type: 'string'},
+                {name: 'latitude', type: 'string'},
+                {name: 'longitude', type: 'string'}
+
+            ]
+        });
+
+
+    	var itemCumbariTemplate = new Ext.XTemplate(
+            '<tpl for=".">',
+            	'<b>{offerTitle}</b>-{distanceToStore}-<img src="{smallImage}"/>-{isSponsored}',
+            '</tpl>');
+
+
+
+	var jsonCumbariStore = new Ext.data.Store({
+            model: "Cumbari",
+            proxy: {
+                type: 'ajax',
+                url: 'cumbari.json',
+                reader: {
+                    type: 'json',
+                    root: 'ListOfCoupons'
+                }
+            },
+            autoLoad: true
+        });
+
+        var jsonCumbariListStore = new Ext.data.Store({
+            model: "Stores",
+            proxy: {
+                type: 'ajax',
+                url: 'cumbari.json',
+                reader: {
+                    type: 'json',
+                    root: 'ListOfStores'
+                }
+            },
+            autoLoad: true
+        });
+
+
+        var jsonCumbariPanel = {
+            title: "Cumbari",
+            items: [
+                {
+                    xtype: 'list',
+                    store: jsonCumbariStore,
+                    itemTpl:itemCumbariTemplate,
+                    singleSelect: true,
+                    listeners :{
+                    	itemtap:function(t, index, item, e){
+                    		var rec = t.getStore().getAt(index);
+                    		console.debug(rec);
+                    		console.debug(rec.data.storeId);
+                    		var found = jsonCumbariListStore.findRecord("storeId", rec.data.storeId);
+                    		console.debug("Found " + found.data.latitude);
+                    		console.debug("Found " + found.data.longitude);
+                    		var customRecord = Ext.ModelMgr.create({
+                    			id: 1,
+                    			storeId: rec.data.storeId,
+                    			latitude : found.data.latitude,
+                    			longitude : found.data.longitude
+                    		}, 'CustomCumbari');
+                    		console.debug(customRecord.data);
+                    	}
+                    }
+                }
+            ]
+        };
+        var panel = new Ext.TabPanel({
+           tabBar: {
+               layout: {
+                   pack: 'center'
+               }
+           },
+           fullscreen: true,
+           cardSwitchAnimation: 'slide',
+           items: [jsonCumbariPanel]
+        });
+    }
+});
+}
+});

@@ -1,0 +1,40 @@
+{
+    "version": 1,
+    "listOfCategories": [
+        {
+            "categoryId": "2c12195a-96e8-102e-bdd2-12313b062daf",
+            "categoryName": "Entertainment",
+            "smallImage": "http://advertise.cumbari.com/upload/category_lib/Entertainment.png"
+        },
+        {
+            "categoryId": "7099ead0-8d47-102e-9bd4-12313b062dat",
+            "categoryName": "Food & Dining",
+            "smallImage": "http://advertise.cumbari.com/upload/category_lib/FoodDining.png"
+        },
+        {
+            "categoryId": "7099ead0-8d47-102e-9bd4-12313b062dax",
+            "categoryName": "Shopping",
+            "smallImage": "http://advertise.cumbari.com/upload/category_lib/Shopping.png"
+        },
+        {
+            "categoryId": "7099ead0-8d47-102e-9bd4-12313b062day",
+            "categoryName": "Food & Snacks",
+            "smallImage": "http://advertise.cumbari.com/upload/category_lib/FoodSnacks.png"
+        },
+        {
+            "categoryId": "3a986706-9790-102e-bdd2-12313b062daf",
+            "categoryName": "Health & Beauty",
+            "smallImage": "http://advertise.cumbari.com/upload/category_lib/HealthBeauty.png"
+        },
+        {
+            "categoryId": "449d563e-96e7-102e-bdd2-12313b062daf",
+            "categoryName": "Cafe",
+            "smallImage": "http://advertise.cumbari.com/upload/category_lib/Cafe.png"
+        },
+        {
+            "categoryId": "7f355eb2-96e8-102e-bdd2-12313b062daf",
+            "categoryName": "Drinks & Beverage",
+            "smallImage": "http://advertise.cumbari.com/upload/category_lib/DrinksBeverage.png"
+        }
+    ]
+}

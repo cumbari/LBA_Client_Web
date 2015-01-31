@@ -1,0 +1,43 @@
+  {
+      "ListOfMore": [
+    {
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Position"
+    }
+    , {
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Settings"
+    }
+    ,{
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Feedback"
+    }
+    , {
+        "image": "<img src='images/spacer.gif'>",
+        "name":"About Cumbari"
+    }],
+
+
+
+
+
+    "ListOfSettings": [
+
+    {
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Language"
+    }
+    , {
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Unit"
+    }
+    , {
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Offer in list"
+    }
+    ,{
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Range"
+    }
+]
+  }

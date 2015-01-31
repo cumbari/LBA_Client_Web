@@ -1,0 +1,278 @@
+{
+    "ListOfCoupons": [
+        {
+            "brandIcon": "",
+            "brandName": "",
+            "categoryId": "92d59b01-c06b-4f42-8b59-2684ed6b1093",
+            "couponDeliveryType": "AUTO",
+            "couponId": "ef1ddb33-77eb-48f0-bce8-e6f1b1f700cf",
+            "distanceToStore": 5730844,
+            "endOfPublishing": "2011-10-10 07:02",
+            "isSponsored": false,
+            "largeImage": "http://www.cumbari.com/images/category/GoogleLarge.png",
+            "limitPeriodList": [
+
+            ],
+            "offerSlogan": "",
+            "offerTitle": "Jazz Café",
+            "offerType": "ADVERTISE",
+            "productInfoLink": "",
+            "smallImage": "http://www.cumbari.com/images/category/Google.png",
+            "storeId": "3f65ffdf-a0de-4cc3-be93-131b3a8de4b3",
+            "validFrom": "2011-09-20 07:02"
+        },
+        {
+            "brandIcon": "",
+            "brandName": "",
+            "categoryId": "9006a393-20c7-4207-831c-ca802a2974fa",
+            "couponDeliveryType": "AUTO",
+            "couponId": "731657dc-c9f4-4d0d-bf82-45016267ee5a",
+            "distanceToStore": 5731148,
+            "endOfPublishing": "2011-10-10 07:02",
+            "isSponsored": false,
+            "largeImage": "http://www.cumbari.com/images/category/GoogleLarge.png",
+            "limitPeriodList": [
+
+            ],
+            "offerSlogan": "",
+            "offerTitle": "Ace Cafe London",
+            "offerType": "ADVERTISE",
+            "productInfoLink": "",
+            "smallImage": "http://www.cumbari.com/images/category/Google.png",
+            "storeId": "fab1b99c-e98f-4991-bc0a-a0c7fb4177ea",
+            "validFrom": "2011-09-20 07:02"
+        },
+        {
+            "brandIcon": "",
+            "brandName": "",
+            "categoryId": "3dacbb80-4a76-458a-a1c9-91afb3294046",
+            "couponDeliveryType": "AUTO",
+            "couponId": "637f4b3c-3cd2-4158-ad7e-a51e5e271031",
+            "distanceToStore": 7164859,
+            "endOfPublishing": "2011-10-10 07:02",
+            "isSponsored": false,
+            "largeImage": "http://www.cumbari.com/images/category/GoogleLarge.png",
+            "limitPeriodList": [
+
+            ],
+            "offerSlogan": "",
+            "offerTitle": "Café Tortoni",
+            "offerType": "ADVERTISE",
+            "productInfoLink": "",
+            "smallImage": "http://www.cumbari.com/images/category/Google.png",
+            "storeId": "a8bf3b51-0236-4a44-bfc5-c5f11b6ad49e",
+            "validFrom": "2011-09-20 07:02"
+        },
+        {
+            "brandIcon": "",
+            "brandName": "",
+            "categoryId": "3b6405bf-1c5b-43cb-beaf-865c348153bd",
+            "couponDeliveryType": "AUTO",
+            "couponId": "38f7bf82-8565-4b19-84e9-75414ffc7ee4",
+            "distanceToStore": 8665953,
+            "endOfPublishing": "2011-10-10 07:02",
+            "isSponsored": false,
+            "largeImage": "http://www.cumbari.com/images/category/GoogleLarge.png",
+            "limitPeriodList": [
+
+            ],
+            "offerSlogan": "",
+            "offerTitle": "The River Café",
+            "offerType": "ADVERTISE",
+            "productInfoLink": "",
+            "smallImage": "http://www.cumbari.com/images/category/Google.png",
+            "storeId": "fa1211e7-b38c-4868-b95c-77b9f30da8cf",
+            "validFrom": "2011-09-20 07:02"
+        },
+        {
+            "brandIcon": "",
+            "brandName": "",
+            "categoryId": "d65508a8-f5f2-46ac-be9c-e6f62f995430",
+            "couponDeliveryType": "AUTO",
+            "couponId": "8dce7e3e-b747-4b98-b3ee-45c8dcbdb888",
+            "distanceToStore": 9185314,
+            "endOfPublishing": "2011-10-10 07:02",
+            "isSponsored": false,
+            "largeImage": "http://www.cumbari.com/images/category/GoogleLarge.png",
+            "limitPeriodList": [
+
+            ],
+            "offerSlogan": "",
+            "offerTitle": "Rainforest Cafe - Disney Animal Kingdom",
+            "offerType": "ADVERTISE",
+            "productInfoLink": "",
+            "smallImage": "http://www.cumbari.com/images/category/Google.png",
+            "storeId": "96fcd4b8-5c6e-4921-a229-c87b6444c280",
+            "validFrom": "2011-09-20 07:02"
+        },
+        {
+            "brandIcon": "",
+            "brandName": "",
+            "categoryId": "a26d62b2-14aa-40e7-be8b-85fbbbc2143b",
+            "couponDeliveryType": "AUTO",
+            "couponId": "d7b4d2dd-28a4-4206-870d-e3e6ce992c2d",
+            "distanceToStore": 9811488,
+            "endOfPublishing": "2011-10-10 07:02",
+            "isSponsored": false,
+            "largeImage": "http://www.cumbari.com/images/category/GoogleLarge.png",
+            "limitPeriodList": [
+
+            ],
+            "offerSlogan": "",
+            "offerTitle": "Rainforest Cafe - Chicago - Downtown",
+            "offerType": "ADVERTISE",
+            "productInfoLink": "",
+            "smallImage": "http://www.cumbari.com/images/category/Google.png",
+            "storeId": "e8b44580-6742-40ab-aacf-45fdfb799908",
+            "validFrom": "2011-09-20 07:02"
+        },
+        {
+            "brandIcon": "",
+            "brandName": "",
+            "categoryId": "4cfaa5d2-8abf-4c22-b31d-bab205c556b0",
+            "couponDeliveryType": "AUTO",
+            "couponId": "e46b2fc9-4a20-4230-8479-a97f82ed9060",
+            "distanceToStore": 12553768,
+            "endOfPublishing": "2011-10-10 07:02",
+            "isSponsored": false,
+            "largeImage": "http://www.cumbari.com/images/category/GoogleLarge.png",
+            "limitPeriodList": [
+
+            ],
+            "offerSlogan": "",
+            "offerTitle": "Rainforest Cafe - Anaheim - Disneyland",
+            "offerType": "ADVERTISE",
+            "productInfoLink": "",
+            "smallImage": "http://www.cumbari.com/images/category/Google.png",
+            "storeId": "c8613169-5a1f-459e-97b0-29167c50309f",
+            "validFrom": "2011-09-20 07:02"
+        },
+        {
+            "brandIcon": "",
+            "brandName": "",
+            "categoryId": "41cc857e-ad16-4c99-b409-59e6ad69077f",
+            "couponDeliveryType": "AUTO",
+            "couponId": "420e2b77-e939-4863-a9d7-7b0606e15938",
+            "distanceToStore": 12795633,
+            "endOfPublishing": "2011-10-10 07:02",
+            "isSponsored": false,
+            "largeImage": "http://www.cumbari.com/images/category/GoogleLarge.png",
+            "limitPeriodList": [
+
+            ],
+            "offerSlogan": "",
+            "offerTitle": "Zuni Cafe",
+            "offerType": "ADVERTISE",
+            "productInfoLink": "",
+            "smallImage": "http://www.cumbari.com/images/category/Google.png",
+            "storeId": "a2282f2e-2e2b-4598-92f7-5ad1546aa014",
+            "validFrom": "2011-09-20 07:02"
+        }
+    ],
+    "ListOfStores": [
+        {
+            "city": "London",
+            "country": "United Kingdom",
+            "email": "",
+            "homePage": "http://www.google.com/maps/place?source=uds&q=Livsmedel%7CRestaurang%7CSkor%7CKonfektion%7CFoto%7CCafe%7CRestaurant%7CFood%7CClothes&cid=5707267216757810826",
+            "latitude": 51.53858,
+            "longitude": -0.143331,
+            "phone": "020 7485 6834",
+            "storeId": "3f65ffdf-a0de-4cc3-be93-131b3a8de4b3",
+            "storeName": "Jazz Café",
+            "street": "5 Parkway"
+        },
+        {
+            "city": "London",
+            "country": "United Kingdom",
+            "email": "",
+            "homePage": "http://www.google.com/maps/place?source=uds&q=Livsmedel%7CRestaurang%7CSkor%7CKonfektion%7CFoto%7CCafe%7CRestaurant%7CFood%7CClothes&cid=1515342934910090681",
+            "latitude": 51.540924,
+            "longitude": -0.277833,
+            "phone": "020 8961 1000",
+            "storeId": "fab1b99c-e98f-4991-bc0a-a0c7fb4177ea",
+            "storeName": "Ace Cafe London",
+            "street": "Ace Corner, North Circular Road"
+        },
+        {
+            "city": "Ciudad De Buenos Aires",
+            "country": "Argentina",
+            "email": "",
+            "homePage": "http://www.google.com/maps/place?source=uds&q=Livsmedel%7CRestaurang%7CSkor%7CKonfektion%7CFoto%7CCafe%7CRestaurant%7CFood%7CClothes&cid=5911962012960146477",
+            "latitude": -34.608804,
+            "longitude": -58.378213,
+            "phone": "(0)11 4342 4328",
+            "storeId": "a8bf3b51-0236-4a44-bfc5-c5f11b6ad49e",
+            "storeName": "Café Tortoni",
+            "street": "Avenida De Mayo 829"
+        },
+        {
+            "city": "New York",
+            "country": "United States",
+            "email": "",
+            "homePage": "http://www.google.com/maps/place?source=uds&q=Livsmedel%7CRestaurang%7CSkor%7CKonfektion%7CFoto%7CCafe%7CRestaurant%7CFood%7CClothes&cid=9181090609208620883",
+            "latitude": 40.703663,
+            "longitude": -73.994804,
+            "phone": "(718) 522-5200",
+            "storeId": "fa1211e7-b38c-4868-b95c-77b9f30da8cf",
+            "storeName": "The River Café",
+            "street": "1 Water Street"
+        },
+        {
+            "city": "Lake Buena Vista",
+            "country": "United States",
+            "email": "",
+            "homePage": "http://www.google.com/maps/place?source=uds&q=Livsmedel%7CRestaurang%7CSkor%7CKonfektion%7CFoto%7CCafe%7CRestaurant%7CFood%7CClothes&cid=16786351755773811639",
+            "latitude": 28.354802,
+            "longitude": -81.590545,
+            "phone": "(407) 938-9100",
+            "storeId": "96fcd4b8-5c6e-4921-a229-c87b6444c280",
+            "storeName": "Rainforest Cafe - Disney Animal Kingdom",
+            "street": "505 N Rainforest  Rd"
+        },
+        {
+            "city": "Chicago",
+            "country": "United States",
+            "email": "",
+            "homePage": "http://www.google.com/maps/place?source=uds&q=Livsmedel%7CRestaurang%7CSkor%7CKonfektion%7CFoto%7CCafe%7CRestaurant%7CFood%7CClothes&cid=11210171330659665986",
+            "latitude": 41.892563,
+            "longitude": -87.631119,
+            "phone": "(312) 787-1501",
+            "storeId": "e8b44580-6742-40ab-aacf-45fdfb799908",
+            "storeName": "Rainforest Cafe - Chicago - Downtown",
+            "street": "605 N. Clark Street"
+        },
+        {
+            "city": "Anaheim",
+            "country": "United States",
+            "email": "",
+            "homePage": "http://www.google.com/maps/place?source=uds&q=Livsmedel%7CRestaurang%7CSkor%7CKonfektion%7CFoto%7CCafe%7CRestaurant%7CFood%7CClothes&cid=17919919399718934513",
+            "latitude": 33.810413,
+            "longitude": -117.924103,
+            "phone": "(714) 772-0413",
+            "storeId": "c8613169-5a1f-459e-97b0-29167c50309f",
+            "storeName": "Rainforest Cafe - Anaheim - Disneyland",
+            "street": "1515 S. Disneyland Drive"
+        },
+        {
+            "city": "San Francisco",
+            "country": "United States",
+            "email": "",
+            "homePage": "http://www.google.com/maps/place?source=uds&q=Livsmedel%7CRestaurang%7CSkor%7CKonfektion%7CFoto%7CCafe%7CRestaurant%7CFood%7CClothes&cid=11491213088621274249",
+            "latitude": 37.773635,
+            "longitude": -122.421422,
+            "phone": "(415) 552-2522",
+            "storeId": "a2282f2e-2e2b-4598-92f7-5ad1546aa014",
+            "storeName": "Zuni Cafe",
+            "street": "870 Market St # 803"
+        }
+    ],
+    "ListOfCategoryHits": [
+
+    ],
+    "ListOfBrandHits": [
+
+    ],
+    "MaxNumberReached": true,
+    "NumberOfCouponsInArea": 0
+}

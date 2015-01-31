@@ -1,0 +1,56 @@
+// Let's start with the basics
+//$base-color: #891919;
+//$active-color: #ff8100;
+
+
+
+$list-active-color: #D8D8D8;
+
+
+$base-gradient: 'glossy';
+$include-default-icons: false;
+// Buttons
+$button-gradient: 'bevel';
+
+// Lists
+$list-bg-color: #eee;
+$list-color: #333;
+$list-pressed-color: #ddd;
+$list-active-gradient: 'recessed';
+$list-header-bg-color: #999;
+$list-header-gradient: 'bevel';
+
+// Tabs
+$tabs_dark_color: #000;
+
+@import '../themes/stylesheets/sencha-touch/default/all';
+
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-sheet;
+@include sencha-picker;
+@include sencha-tabs;
+@include sencha-toolbar;
+@include sencha-toolbar-forms;
+@include sencha-carousel;
+@include sencha-indexbar;
+@include sencha-list;
+@include sencha-list-paging;
+@include sencha-list-pullrefresh;
+@include sencha-layout;
+@include sencha-form;
+@include sencha-msgbox;
+@include sencha-toolbar-ui('charcoal', #D8D8D8,'glossy');
+@include sencha-toolbar-ui('search', #660000,'glossy');
+
+@include sencha-button-ui('back', #891919, 'glossy');
+@include sencha-button-ui('forward', #891919, 'glossy');
+@include sencha-button-ui('toolButton', #891919, 'glossy');
+@include sencha-button-ui('myUseButton', #0b4713, 'bevel');
+@include sencha-button-ui('myButton', #891919, 'bevel');
+@include sencha-button-ui('myCancel', #202932, 'bevel');
+@include sencha-button-ui('done', #891919, 'glossy');
+ $tabs-myUI:#5c1011;
+$tabs-bar-gradient:'glossy';
+$tabs-myUI-active:#32abef;
+@include sencha-tabbar-ui('myUI', $tabs-myUI, $tabs-bar-gradient, $tabs-myUI-active);

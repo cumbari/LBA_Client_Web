@@ -1,0 +1,43 @@
+  {
+      "ListOfMore": [
+    {
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Position"
+    }
+    , {
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Inställningar"
+    }
+    ,{
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Feedback"
+    }
+    , {
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Om Cumbari"
+    }],
+
+
+
+
+
+    "ListOfSettings": [
+
+    {
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Språk"
+    }
+    , {
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Enhet"
+    }
+    , {
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Erbjudandet i listan"
+    }
+    ,{
+        "image": "<img src='images/spacer.gif'>",
+        "name":"Range"
+    }
+]
+  }
