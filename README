@@ -1,3 +1,16 @@
 This code was copied from www.cumbari.com/webclient2 
 Most js and png files are however copied into Amazon S3. The reason for this was to offload our webserver from traffic and also to zip the content to improve the speed
 I am not sure if the .htaccess file is a part of the code or not
+S3 properties 
+Owner: 	Me
+ETag: 	96125bc2b954a4f2ae339b9a2b6af761
+Expiry Date: 	None
+Expiration Rule: 	N/A
+Storage Class:StandardReduced 
+Server Side Encryption:None
+
+permissions
+Grantee:kent.bogestam Open/Download View  Edit 
+Grantee:everyone Open/Download
+Key: Value:Content-Type application/javascript
+Key: Value: Content-Encoding gzip
