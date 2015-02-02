@@ -1,0 +1,3 @@
+This code was copied from www.cumbari.com/webclient2 
+Most js and png files are however copied into Amazon S3. The reason for this was to offload our webserver from traffic and also to zip the content to improve the speed
+I am not sure if the .htaccess file is a part of the code or not
